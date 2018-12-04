@@ -64,7 +64,7 @@ class Data:
     try:
       self.standings = mlbgame.standings()
     except:
-      debug.error("Failed to refresh standings.")
+      debug.error("Failed to update standings.")
 
   def refresh_games(self):
     debug.log("Updating games for {}/{}/{}".format(self.month, self.day, self.year))
@@ -90,13 +90,13 @@ class Data:
         attempts_remaining -= 1
         time.sleep(NETWORK_RETRY_SLEEP_TIME)
       except ValueError:
-        debug.error("ValueError: Failed to refresh list of games")
+        debug.error("ValueError: Could not update games")
         attempts_remaining -= 1
         time.sleep(NETWORK_RETRY_SLEEP_TIME)
 
   def refresh_overview(self):
     urllib.urlcleanup()
-    attempts_remaining = 5
+    attempts_remaining = 3
     while attempts_remaining > 0:
       try:
         self.overview = mlbgame.overview(self.current_game().game_id)
