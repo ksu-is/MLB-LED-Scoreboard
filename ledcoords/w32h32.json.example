@@ -30,19 +30,19 @@
       "width": 32
     },
     "nohit_text": {
-      "x": 10,
-      "y": 26
+      "x": 5,
+      "y": 25
     }
   },
   "inning": {
     "break": {
       "number": {
-        "x": 16,
-        "y": 29
+        "x": 8,
+        "y": 15
       },
       "text": {
-        "x": 16,
-        "y": 22
+        "x": 10,
+        "y": 25
       }
     },
     "number": {
@@ -63,7 +63,7 @@
   },
   "outs": {
     "1": {
-      "x": 1,
+      "x": 2,
       "y": 26,
       "size": 2,
       "nohit": {
@@ -109,15 +109,15 @@
     }
   },
   "batter_count": {
-    "x": 1,
+    "x": 3,
     "y": 23,
     "nohit": {
-      "x": 1,
-      "y": 21
+      "x": 10,
+      "y": 1
     },
     "perfect_game": {
-      "x": 1,
-      "y": 21
+      "x": 10,
+      "y": 1
     }
   },
   "nohitter": {
@@ -137,33 +137,33 @@
       }
     },
     "start_time": {
-      "x": 16,
-      "y": 20
+      "x": 20,
+      "y": 15
     },
     "warmup_text": {
-      "x": 16,
-      "y": 20
+      "x": 20,
+      "y": 15
     }
   },
   "standings": {
     "offset": 6,
-    "height": 30,
-    "width": 32,
+    "height": 25,
+    "width": 30,
     "divider": {
       "x": 13
     },
     "stat_title": {
-      "x": 28
+      "x": 29
     },
     "team": {
       "name": {
-        "x": 1
+        "x": 2
       },
       "record": {
-        "x": 15
+        "x": 13
       },
       "games_back": {
-        "x": 64
+        "x": 65
       }
     }
   },
@@ -183,13 +183,13 @@
     "background": {
       "away": {
         "width": 32,
-        "height": 7,
+        "height": 5,
         "x": 0,
         "y": 0
       },
       "home": {
         "width": 32,
-        "height": 7,
+        "height": 5,
         "x": 0,
         "y": 7
       }
