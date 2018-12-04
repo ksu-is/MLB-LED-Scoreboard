@@ -6,28 +6,28 @@
     "1B": {
       "x": 75,
       "y": 43,
-      "size": 18
+      "size": 15
     },
     "2B": {
       "x": 65,
       "y": 33,
-      "size": 18
+      "size": 15
     },
     "3B": {
       "x": 55,
       "y": 43,
-      "size": 18
+      "size": 15
     }
   },
   "final": {
     "inning": {
-      "x": 67,
+      "x": 65,
       "y": 61
     },
     "scrolling_text": {
       "x": 0,
-      "y": 44,
-      "width": 128
+      "y": 45,
+      "width": 125
     },
     "nohit_text": {
       "x": 1,
@@ -69,12 +69,12 @@
       "nohit": {
         "x": 5,
         "y": 58,
-        "size": 8
+        "size": 6
       },
       "perfect_game": {
         "x": 5,
         "y": 58,
-        "size": 8
+        "size": 6
       }
     },
     "2": {
@@ -84,12 +84,12 @@
       "nohit": {
         "x": 19,
         "y": 58,
-        "size": 8
+        "size": 6
       },
       "perfect_game": {
         "x": 18,
         "y": 52,
-        "size": 8
+        "size": 6
       }
     },
     "3": {
@@ -104,7 +104,7 @@
       "perfect_game": {
         "x": 23,
         "y": 55,
-        "size": 8
+        "size": 6
       }
     }
   },
@@ -137,8 +137,8 @@
       }
     },
     "start_time": {
-      "x": 66,
-      "y": 60
+      "x": 65,
+      "y": 55
     },
     "warmup_text": {
       "x": 66,
